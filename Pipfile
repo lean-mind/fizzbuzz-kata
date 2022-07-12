@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+requests = "*"
+mamba = "0.11.2"
+expects = "0.9.0"
+doublex = "1.9.3"
+doublex-expects = "0.7.1"
+pytest = "*"
+pytest-cov = "*"
+assertpy = "*"
+hypothesis = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
